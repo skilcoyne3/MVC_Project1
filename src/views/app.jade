@@ -25,7 +25,9 @@ block body
     else
         each val in payments
             div.onePay
+                img.emmit(src="/assets/img/emmit2.png", alt="emit speech")
                 h3.payItem Item: #{val.name}
-                h3.priceItem Price: #{"$" + val.price}	
+                img.aws(src="/assets/img/awsome2.png", alt="emit speech")
+                h3.priceItem IS AWESOME!	
 block scripts
         script(src="/assets/maker.js")
