@@ -18,8 +18,10 @@ block body
         div.emm
             img.emmit(src="/assets/img/emmet2.png", alt="emit speech")
             div.eBubText
-            - var payment = payments[payments.length-1]
-            h3.payItem #{payment.name}
+             - var payment = payments[payments.length-1]
+                if !payments || payments.length == 0
+                else
+                   h3.payItem #{payment.name}
         div.awss
             img.aws(src="/assets/img/awsome2.png", alt="hero img")
             div.pBubText
