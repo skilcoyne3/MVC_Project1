@@ -8,8 +8,8 @@ var router = function(app) {
     app.get("/signup", mid.requiresSecure, mid.requiresLogout, controllers.Account.signupPage);
     app.post("/signup", mid.requiresSecure, mid.requiresLogout, controllers.Account.signup);
     app.get("/logout", mid.requiresLogin, controllers.Account.logout);
-    app.get("/account", mid.requiresLogin, controllers.Awesome.accountPage);
-    app.post("/account", mid.requiresLogin, controllers.Awesome.make);
+    app.get("/maker", mid.requiresLogin, controllers.Awesome.accountPage);
+    app.post("/maker", mid.requiresLogin, controllers.Awesome.make);
     app.get("/", mid.requiresSecure, controllers.Account.loginPage);
 };
 
