@@ -312,38 +312,62 @@ h3.mTotal{
 	width: 15%;
 }
 */
+.wrap{
+	display: inline-flex;
+	margin: auto;
+	position: relative;
+}
 .emm{
 	position: relative;
+	width: 29%;
 	/* width: 50%; */
 	/* width: 400px; */
 	/* height: 400px; */
 }
 
 .emmit{
-	/* width: 100%; */
-	width: 400px;
+	width: 100%;
+}
+.eBubText{
+	background: rgb(0, 154, 255);
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	/* display: inline-table; */
+	bottom: 0;
+	opacity: .5;
 }
 h3.payItem {
 	position: absolute;
-	top: 50px;
-	left: 149px;
-	width: 36%;
-	font-size: 1.2em;
+	top: 44px;
+	right: 58px;
+	width: 53%;
+	/*font-size: 1.2em;*/
+	font-size: 1.4vw;
 }
 .awss{
-	position:relative;
+	position: relative;
+	width: 40%;
 }
 .aws{
-	/* height: 500px; */
-	/* width: 100%; */
-	width: 600px;
+	width: 100%;
+}
+.pBubText{
+	background: yellow;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	/* display: inline-table; */
+	bottom: 0;
+	opacity: .5;
 }
 h3.priceItem{
 	position: absolute;
-	top: 40px;
-	right: 67px;
+	top: 15px;
+	right: 55px;
 	width: 36%;
-	font-size: 2.2em;
+	/* font-size: 2.2em; */
+	font-size: 2.7vw;
 	color: red;
 	text-align: center;
 }
