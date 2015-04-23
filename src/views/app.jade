@@ -14,16 +14,16 @@ block body
         #errorPayments
           h3
             span#errorMessage *Nothing inserted in box!
-    if !payments || payments.length == 0
-        div.onePay
-            h3.noPay Currently Nothing is Awesome :(
-    else
-   div.wrap
+  if !payments || payments.length == 0
+      div.onePay
+          h3.noPay Currently Nothing is Awesome :(
+  else
+    div.wrap
         div.emm
             img.emmit(src="/assets/img/emmet2.png", alt="emit speech")
             div.eBubText
              - var payment = payments[payments.length-1]
-                h3.payItem #{payment.name}
+                h3.payItem pasdys
         div.awss
             img.aws(src="/assets/img/awsome2.png", alt="hero img")
             div.pBubText
