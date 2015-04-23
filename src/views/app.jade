@@ -23,14 +23,13 @@ block body
             img.emmit(src="/assets/img/emmet2.png", alt="emit speech")
             div.eBubText
              - var payment = payments[payments.length-1]
-                   h3.payItem #{payment.name}
+                h3.payItem #{payment.name}
         div.awss
             img.aws(src="/assets/img/awsome2.png", alt="hero img")
             div.pBubText
             h3.priceItem IS AWESOME!
   h3.title Other Things That Are Awesome
   section#payments
-
         each val in payments
             div.onePay
                 div.wrap
