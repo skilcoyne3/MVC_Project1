@@ -3,7 +3,7 @@ var models = require('../models');
 
 var Awesome = models.Awesome;
 
-var acccountPage = function(req, res) {
+var makerPage = function(req, res) {
 
     Awesome.AwesomeModel.findByOwner(req.session.account._id, function(err, docs) {
 
@@ -37,10 +37,10 @@ var makeAwesome = function(req, res) {
             return res.status(400).json({error:'An error occurred'}); 
         }
 
-        res.json({redirect: '/account'});
+        res.json({redirect: '/maker'});
     });
     
 };
 
-module.exports.accountPage = acountPage;
+module.exports.makerPage = makerPage;
 module.exports.make = makeAwesome;
