@@ -20,7 +20,13 @@ h4{
 	color: rgb(74, 74, 74);
 	font-size: 1.2em;
 }
-
+.lg{
+	width:200px;
+}
+.logo{
+	text-align:center;
+	margin:0;
+}
 #logo {
 	float: left;
 	border-radius: 8px;
@@ -143,7 +149,7 @@ nav:nth-child(1) {
 	width: 350px;
 	margin: 0 auto;
 	font-size: 1.2em;
-	background: rgb(222, 222, 222);
+	background: #fdd000;
 	border: solid 2px;
 	border-radius: 12px;
 }
@@ -170,7 +176,7 @@ font-size: 1.1em;
   margin: 25px auto auto auto;
   font-size: 1.2em;
   width: 290px;
-  background-color: #E93D2A;
+  background-color: #575653;
   border-radius: 2px;
   padding: 10px 0px;
   color: white;
