@@ -9,16 +9,25 @@ block body
       a(href="/logout") Log out
   section#paymentsForm
     form#payForm(class="payForm", name="payForm", action="/maker", method="POST", maxlength="115")
-      input#payItem(type="text", name="name", placeholder="item name")
-      a#paymentsFormSubmit(class="paymentsFormSubmit", href="#") Create Item
+      input#payItem(type="text", name="name", placeholder="type anything and make it AWESOME")
+      a#paymentsFormSubmit(class="paymentsFormSubmit", href="#") Make Awesome
       #errorPayments
         h3
-          span#errorMessage *All fields required!
-  h3.title Your Payments
+          span#errorMessage *Nothing inserted in box!
+   div.wrap
+        div.emm
+            img.emmit(src="/assets/img/emmet2.png", alt="emit speech")
+            div.eBubText
+            h3.payItem #{val.name}
+        div.awss
+            img.aws(src="/assets/img/awsome2.png", alt="hero img")
+            div.pBubText
+            h3.priceItem IS AWESOME!
+  h3.title Other Things That Are Awesome
   section#payments
     if !payments || payments.length == 0
         div.onePay
-            h3.noPay Currently No Payments!
+            h3.noPay Currently Nothing is Awesome :(
     else
         each val in payments
             div.onePay

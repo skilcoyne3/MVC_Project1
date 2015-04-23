@@ -34,8 +34,8 @@ $(document).ready(function() {
     
         $("#errorPayments").animate({height:'hide'},200);
     
-        if($("#payItem").val() == '' || $("#priceItem").val() == '') {
-            handleError("*All fields required!");
+        if($("#payItem").val() == '') {
+            handleError("*Nothing inserted in box!");
             return false;
         }
 

@@ -94,8 +94,10 @@ nav:nth-child(1) {
 }
 
 .payForm input[type=text] {
-    float: center;
-	width: 25%;
+	float: center;
+	width: 68%;
+	height: 33px;
+	font-size: 1.0em;
 }
 
 .paymentsFormSubmit {
