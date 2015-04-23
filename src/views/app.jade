@@ -2,7 +2,6 @@ extends ./base.jade
 block append style
     link(rel="stylesheet", type="text/css", href="/assets/style.css")
 block body
-var payments = [];
   nav
     a(href="/login")
       p#logo Manage Payments
@@ -19,6 +18,7 @@ var payments = [];
         div.emm
             img.emmit(src="/assets/img/emmet2.png", alt="emit speech")
             div.eBubText
+            - var payments = [];
             h3.payItem #{payments.name}
         div.awss
             img.aws(src="/assets/img/awsome2.png", alt="hero img")
