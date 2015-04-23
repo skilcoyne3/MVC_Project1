@@ -14,11 +14,12 @@ block body
       #errorPayments
         h3
           span#errorMessage *Nothing inserted in box!
+   each val in payments
    div.wrap
         div.emm
             img.emmit(src="/assets/img/emmet2.png", alt="emit speech")
             div.eBubText
-            h3.payItem #{[payments.length - 1].name}
+            h3.payItem #{val[length - 1].name}
         div.awss
             img.aws(src="/assets/img/awsome2.png", alt="hero img")
             div.pBubText
