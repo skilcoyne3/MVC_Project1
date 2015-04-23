@@ -2,13 +2,8 @@ extends ./base.jade
 block append style
     link(rel="stylesheet", type="text/css", href="/assets/style.css")
 block body
-  nav
-    a(href="/login")
-      p#logo Manage Payments
-    .navlink
-      a(href="/login") Login
-    .navlink
-      a(href="/signup") Sign up
+  div.logo 
+     img.lg(src="/assests/img/logo.png")
   section#signup
     form#signupForm(class="mainForm2", name="signupForm", action="/signup", method="POST")
       h2.formTitle Sign Up
@@ -23,6 +18,5 @@ block body
           span#errorMessage2
       a#signupSubmit.formSubmit2(href='#') Create Account
       a.logbtn(href='/login') Login
-
 block scripts
         script(src="/assets/client.js")

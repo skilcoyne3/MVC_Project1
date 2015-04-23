@@ -29,6 +29,8 @@ h4{
 	font-size: 2em;
 	font-family: sans-serif;
 	font-weight: bolder;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .logbtn{
 	text-align: right;
@@ -37,7 +39,7 @@ h4{
 	padding-top: 30px;
 }
 #login, #signup{
-	padding-top: 50px;
+	padding-top: 20px;
 }
 nav {
     /*width: 100%;
@@ -45,7 +47,7 @@ nav {
 	background-color: #E93D2A;
 	border-bottom: solid 3px black;*/
 	width: 100%;
-	background-color: #rgb(253, 208, 0);
+	background-color: #fdd000;
 	border-bottom: solid 3px black;
 	margin-bottom: 20px;
 	padding-top: 15px;
@@ -132,8 +134,8 @@ nav:nth-child(1) {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 1.2em;
-	background: rgb(222, 222, 222);
-	border: solid 2px;
+	background: #fdd000;
+	border: solid 2px rgb(85, 85, 85);
 	border-radius: 12px;
 }
 .mainForm2{
@@ -194,7 +196,7 @@ font-size: 1.1em;
 	margin-top: 10px;
 	font-size: 1.2em;
 	width: 290px;
-	background-color: #E93D2A;
+	background-color: #575653;
 	border-radius: 2px;
 	padding: 10px 0px;
 	color: white;
@@ -334,7 +336,7 @@ h3.mTotal{
 	width: 100%;
 }
 .eBubText{
-	background: rgb(0, 154, 255);
+	/*background: rgb(0, 154, 255);*/
 	width: 100%;
 	position: absolute;
 	height: 100%;
@@ -359,7 +361,7 @@ h3.payItem {
 	width: 100%;
 }
 .pBubText{
-	background: yellow;
+	/*background: yellow;*/
 	width: 100%;
 	position: absolute;
 	height: 100%;
