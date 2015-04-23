@@ -15,12 +15,13 @@ var DomoSchema = new mongoose.Schema({
         trim: true,
         set: setName
     },
-    
+    /*
     price: {
         type: Number,
         min: 0,
         required: true
     },
+	*/
 	/*cost: {
 		type: Number,
 		min: 0, 
@@ -43,7 +44,7 @@ DomoSchema.methods.toAPI = function() {
 	//this.cost = this.price; 
     return {
         name: this.name,
-        price: this.price,
+        //price: this.price,
 		//cost: this.cost
     };
 };
@@ -54,7 +55,7 @@ DomoSchema.statics.findByOwner = function(ownerId, callback) {
         owner: mongoose.Types.ObjectId(ownerId)
     };
 
-    return DomoModel.find(search).select("name price").exec(callback);
+    return DomoModel.find(search).select("name").exec(callback);
 };
 
 
