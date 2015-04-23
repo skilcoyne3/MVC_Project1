@@ -33,13 +33,13 @@ block body
         each val in payments
             div.onePay
                 div.wrap
-                    div.emm
+                    div.emm_small
                         img.emmit(src="/assets/img/emmet2.png", alt="emit speech")
                         div.eBubText
-                        h3.payItem #{val.name}
-                    div.awss
+                        h3.payItem_small #{val.name}
+                    div.awss_small
                         img.aws(src="/assets/img/awsome2.png", alt="hero img")
                         div.pBubText
-                        h3.priceItem IS AWESOME!
+                        h3.priceItem_small IS AWESOME!
 block scripts
         script(src="/assets/maker.js")

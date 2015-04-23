@@ -373,3 +373,28 @@ h3.priceItem{
 	color: red;
 	text-align: center;
 }
+.emm_small{
+	position: relative;
+	width: 215px;
+}
+.payItem_small{
+	position: absolute;
+	top: 20px;
+	right: 38px;
+	width: 53%;
+	font-size: .7em;
+}
+.awss_small{
+	position: relative;
+	width: 320px;
+}
+.priceItem_small{
+	position: absolute;
+	top: 10px;
+	right: 35px;
+	width: 36%;
+	font-size: 1.4em;
+	/* font-size: 1.7vw; */
+	color: red;
+	text-align: center;
+}
