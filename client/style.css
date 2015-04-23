@@ -333,10 +333,14 @@ h3.mTotal{
 	position: relative;
 	width: 29%;
 	margin:auto;
+	/*opacity: 1;
+	transition: opacity .25s ease-in;
+	-moz-transition: opacity .25s ease-in;
+	-webkit-transition: opacity 4.25s ease-in;*/
 	opacity: 1;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity 4.25s ease-in-out;
+	transition: opacity;
+	-webkit-transition-duration: 4s;
+	-webkit-transition-delay: 5s;
 }
 
 .emmit{
