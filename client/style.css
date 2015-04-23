@@ -6,12 +6,6 @@ html, body {
     overflow-x: hidden;
 	background: white;
 	font-family: 'Arimo', sans-serif;
-	 /*background: url(img/awesome.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  */
 }
 h4{
 	margin:20px;
@@ -48,22 +42,12 @@ h4{
 	padding-top: 20px;
 }
 nav {
-    /*width: 100%;
-	height: 100px;
-	background-color: #E93D2A;
-	border-bottom: solid 3px black;*/
 	width: 100%;
 	background-color: #fdd000;
 	border-bottom: solid 3px black;
 	margin-bottom: 20px;
 	padding-top: 15px;
 }
-/*
-nav:nth-child(1) {
-    padding-left: 25px;
-}
-*/
-
 .navlink {
     padding: 5px;
 	/*padding-top: 35px;*/
@@ -86,15 +70,6 @@ nav:nth-child(1) {
 }
 
 .payForm {
-	/*
-	width: 85%;
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: rgb(74, 74, 74);
-	border-radius: 0px;
-	text-align: center;
-	margin-bottom: 60px;*/
 	text-align: center;
 }
 
@@ -243,14 +218,6 @@ font-size: 1.1em;
 
 #errorPayments {
     display:none;
-    /*top: 250px;
-    width: 250px;
-    height: 650px;
-    position: absolute;
-    z-index: 200;
-    right: 0px;
-    overflow: hidden;
-	*/
 	width: 100%;
 	height: 50px;
 	/* position: absolute; */
@@ -308,22 +275,6 @@ h3.title{
 	font-weight: normal;
 	text-decoration: underline;
 }
-/*
-h3.payItem {
-	width: 80%;
-	height: 23px;
-	text-align: left;
-	padding-left: 20px;
-}*/
-/*
-h3.priceItem {
-	width: 20%;
-}*/
-/*
-h3.mTotal{
-	width: 15%;
-}
-*/
 .wrap{
 	display: inline-flex;
 	margin: auto;
@@ -351,7 +302,6 @@ h3.mTotal{
 	width: 100%;
 	position: absolute;
 	height: 100%;
-	/* display: inline-table; */
 	bottom: 0;
 	opacity: .5;
 }
@@ -376,7 +326,6 @@ h3.payItem {
 	width: 100%;
 	position: absolute;
 	height: 100%;
-	/* display: inline-table; */
 	bottom: 0;
 	opacity: .5;
 }

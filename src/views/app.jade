@@ -8,7 +8,7 @@ block body
     .navlink
       a(href="/logout") Log out
     section#paymentsForm
-      form#payForm(class="payForm", name="payForm", action="/account", method="POST", maxlength="115")
+      form#payForm(class="payForm", name="payForm", action="/maker", method="POST", maxlength="115")
         input#payItem(type="text", name="name", placeholder="type anything and make it AWESOME")
         a#paymentsFormSubmit(class="paymentsFormSubmit", href="#") Make Awesome
         #errorPayments
