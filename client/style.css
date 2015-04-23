@@ -25,7 +25,7 @@ h4{
 	float: left;
 	border-radius: 8px;
 	padding-left: 20px;
-	color: rgb(235, 235, 235);
+	color: rgb(132, 97, 65);
 	font-size: 2em;
 	font-family: sans-serif;
 	font-weight: bolder;
@@ -40,12 +40,15 @@ h4{
 	padding-top: 50px;
 }
 nav {
-    width: 100%;
+    /*width: 100%;
 	height: 100px;
 	background-color: #E93D2A;
-	/*background-image: url("img/awesome.jpg");*/
+	border-bottom: solid 3px black;*/
+	width: 100%;
+	background-color: #rgb(253, 208, 0);
 	border-bottom: solid 3px black;
-	
+	margin-bottom: 20px;
+	padding-top: 15px;
 }
 /*
 nav:nth-child(1) {
@@ -55,14 +58,14 @@ nav:nth-child(1) {
 
 .navlink {
     padding: 5px;
-	padding-top: 35px;
+	/*padding-top: 35px;*/
 	padding-left: 20px;
 	font-size: 1.3em;
 	float: right;
 }
 
 .navlink a, .navlink a:link, .navlink a:visited, .navlink a:hover, .navlink a:active {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 20px;
 	border-radius: 4px;
@@ -75,6 +78,7 @@ nav:nth-child(1) {
 }
 
 .payForm {
+	/*
 	width: 85%;
 	margin: auto;
 	padding-top: 20px;
@@ -82,7 +86,8 @@ nav:nth-child(1) {
 	background-color: rgb(74, 74, 74);
 	border-radius: 0px;
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 60px;*/
+	text-align: center;
 }
 
 .payForm label {
@@ -94,8 +99,7 @@ nav:nth-child(1) {
 }
 
 .payForm input[type=text] {
-	float: center;
-	width: 68%;
+	width: 42%;
 	height: 33px;
 	font-size: 1.0em;
 }
@@ -105,11 +109,11 @@ nav:nth-child(1) {
 	display: inline;
 	font-size: 1em;
 	width: 20%;
-	background-color: #E93D2A;
+	background-color: #A4A4A4;
 	border-radius: 2px;
 	color: white;
 	text-decoration: none;
-	margin-left: 6%;
+	margin-left: 1%;
 	padding: 8px;
 }
 
@@ -119,10 +123,8 @@ nav:nth-child(1) {
 
 .paymentsFormSubmit:hover {
     transition: background-color 0.2s ease;
-    background-color: #C63C2D;
+    background-color: #676666;
 }
-
-
 .mainForm {
     /*height: 300px; */
 	padding: 0px 20px 30px 20px;
@@ -322,6 +324,7 @@ h3.mTotal{
 .emm{
 	position: relative;
 	width: 29%;
+	margin:auto;
 	/* width: 50%; */
 	/* width: 400px; */
 	/* height: 400px; */
@@ -350,6 +353,7 @@ h3.payItem {
 .awss{
 	position: relative;
 	width: 40%;
+	margin:auto;
 }
 .aws{
 	width: 100%;
