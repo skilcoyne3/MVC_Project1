@@ -289,13 +289,6 @@ h3.noPay {
     text-align: center;
     margin-top: 18px;
 }
-
-h3.payItem {
-	width: 80%;
-	height: 23px;
-	text-align: left;
-	padding-left: 20px;
-}
 h3.title{
 	text-align: center;
 	font-size: 1.6em;
@@ -303,12 +296,54 @@ h3.title{
 	font-weight: normal;
 	text-decoration: underline;
 }
-h3.priceItem {
+/*
+h3.payItem {
+	width: 80%;
+	height: 23px;
+	text-align: left;
+	padding-left: 20px;
+}*/
+/*
 h3.priceItem {
 	width: 20%;
-}
+}*/
 /*
 h3.mTotal{
 	width: 15%;
 }
 */
+.emm{
+	position: relative;
+	/* width: 50%; */
+	/* width: 400px; */
+	/* height: 400px; */
+}
+
+.emmit{
+	/* width: 100%; */
+	width: 400px;
+}
+h3.payItem {
+	position: absolute;
+	top: 50px;
+	left: 149px;
+	width: 36%;
+	font-size: 1.2em;
+}
+.awss{
+	position:relative;
+}
+.aws{
+	/* height: 500px; */
+	/* width: 100%; */
+	width: 600px;
+}
+h3.priceItem{
+	  position: absolute;
+	top: 40px;
+	right: 67px;
+	width: 36%;
+	font-size: 2.2em;
+	color: red;
+	text-align: center;
+}
